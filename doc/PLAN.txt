@@ -1,0 +1,62 @@
+My favorite variations of Breakout were Vortex and Devilish because I thought the UI for both was creative and
+interactive. For instance in Vortex, the paddle circles around bricks that orbit, which adds complex movement in that if
+the ball is hit upside down, the player must move clockwise/counterclockwise in order to save it or utilize the beam.
+Additionally, the bricks would shrink randomly, so the ball would not be able to break it, further adding a layer of
+difficulty. With Devilish, I thought it was very impressive in that the scene constantly changed and almost told a story
+or led the player through a fun maze, which reminded me of a lot of current versus multi-player games. The paddle could
+also be rotated, as the ball had to sometimes hit the bricks multiple times in order to be broken and be directed at
+"monsters" trying to attack, and that made it unique from the rest.
+
+For my version of breakout, I plan on making it space themed with stars, planets, asteroids, a dying sun, and shooting
+"stars". The first level will be a general introduction round where the paddle is near the bottom of the scene (scene is
+originally longer than wide), and the bricks are colored circles representing planets/asteroids as well as stars
+scattered all across like below:
+       o     o o
+    s o  s p s
+     o    s
+    p   s      o
+  o   o      o p o
+     s    s    o
+
+        .
+      ---
+s=star p=planet o=asteroid ----=paddle .=ball
+
+As the levels increase in difficulty, the bricks will get closer together and form things like asteroid belts where the
+player will have to break through the layer in order to reach the stars like so:
+    s   s
+   s       s    s
+        p
+ o o o o o o o o o
+  o o o o o o o o
+ o o o o o o o o o
+    .
+    ___
+s=star p=planet o=asteroid ----=paddle .=ball
+
+Throughout the levels there will be shooting stars, which randomly shoot out from the top of the screen down to the
+bottom. If the player accidentally hits them with the balls or collects it with the paddle, the player will lose time.
+
+The types of bricks are either stars or circles, but the asteroids/circles take 3 hits to destroy and the planets/
+circles take 2 hits to destroy. Like Vortex, some bricks hold power ups, which in my version, are the planets. In each
+level there are a fewer amount of planets in comparison to stars and asteroids, but when the player destroys the planet,
+a power up will fall and can be collected by the player. The planets are a special color that deviates from stars and
+asteroids, but since the planets are all the same color, players won't be able to tell whether or not the power up is
+helpful or harmful.
+
+Power ups include: increasing ball size, decreasing ball size, increasing paddle length, decreasing paddle length,
+gaining time, losing time, increasing ball velocity, decreasing ball velocity, and adding another paddle that is
+controlled differently. Cheat keys include: pressing "s" to destroy all the stars, pressing "t" to end game in total
+failure, and pressing "z" to destroy all the bricks/win the game.
+
+I mentioned time in the previous paragraph because I wanted to add it to this game like Devilish. The goal is to destroy
+all of the bricks before the sun explodes and blows all of them up, ending in "fail game". Thus, instead of lives count,
+there will be a timer at the bottom of the screen that shows a sun moving to the end of the bar, indicating the time
+elapse and the time left. If the player drops the ball, time will decrease/the progress bar timer will be more full. I
+find that adding time is substantial because it adds a new element to the game where players are not only penalized for
+dropping the ball but also must complete the levels on the clock, making it more exciting and rewarding if the player
+wins.
+
+
+
+
